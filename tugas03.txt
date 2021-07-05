@@ -1,0 +1,21 @@
+1. Apa kepanjangan dari XAMPP?
+X (sebuah lambang dimana dapat dijalankan dibanyak sistem operasi), Apache, MySQL, PHP dan Perl.
+
+2. Bagaimana cara untuk mengakses XAMPP Panel?
+dapat diakses dari menu START -> All Programs -> XAMPP -> XAMPP Control Panel
+
+3. Module apa yang harus diaktifkan untuk menjalankan MYSQL Server?
+modul Apache dan MySQL
+
+4. Bagaimana cara menjalankan PHPMyAdmin di browser?
+- buka web browser dan ketik alamat http://localhost di address bar, setelah muncul halaman xampp klik menu phpMyAdmin, atau bisa juga
+- ketik alamat http://localhost/phpmyadmin di address bar browser
+
+5. Bagaimana menjalankan MYSQL Client?
+- Pastikan MySQL server sudah berjalan, caranya dengan buka XAMPP Control Panel lalu klik start pada MySQL
+- Untuk lewat brower / web cukup melallui PHPmyAdmin (http://localhost/phpmyadmin) sebagai bentuk MySQL client yang berbasis web
+- Untuk secara manual:
+	- ketikkan pada cmd => c:\xampp\mysql\bin\mysql -u root
+	- akan tampil teks “welcome” dari MariaDB
+	- kemudian masuk sebagai user root
+- untuk lewat aplikasi desktop, bisa menginstall dan menggunakan aplikasi MySQLWorkbench
